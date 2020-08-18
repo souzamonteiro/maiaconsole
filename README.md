@@ -1,4 +1,4 @@
-# MaiaEditor (The MaiaStudio Editor)
+# MaiaConsole (The MaiaStudio Console)
 
 Copyright (C) 2020 Roberto Luiz Souza Monteiro, Renata Souza Barreto, Hernane Borges de Barros Pereira.
 
@@ -6,8 +6,8 @@ This software is distributed under the terms of several open sources licenses.
 
 Please read the files LICENSE, COPYING or COPYING.LIB for further information.
 
-MaiaEditor is a lightweight and versatile web editor.
-The only dependency is the Prism library, for syntax highlight. It is the MaiaStudio default editor. MaiaStudio is the MaiaScript IDE.
+MaiaStudio is a lightweight and versatile web console.
+The only dependency is the Prism library, for syntax highlight. It is the MaiaStudio default console. MaiaStudio is the MaiaScript IDE.
 
 MaiaScript is a programming language aimed at developing adaptable and
 intelligent applications. An adaptive application modifies its code to
@@ -25,32 +25,19 @@ similar to that used in Mathematics, including libraries for Numerical Calculati
 Complex Network Analysis, Database Access, Regular Expression Processing, and an
 abstraction layer between the MaiaScript interpreter and the underlying Operating System.
 
-MaiaEditor currently implements the following features:
+MaiaConsole currently implements the following features:
 - Syntax highlighting;
-- Line number display;
-- Auto-indentation;
 - Automatic closing of structures;
-- Indent and unindent method;
-- Comment and uncomment method;
 - Undo and redo;
-- Search and replace text based on regular expressions;
 - Support for any language supported by the Prism syntax highlighter;
 - Lightweight and easily extensible editor;
 - Simplified API, although powerful;
 - Free software.
 
 In addition to being accessible via the API, some commands are available as shortcut keys:
-- [CTRL] + i: indent;
-- [SHIFT] + [CTRL] + i: unindent;
-- [CTRL] + m: comment;
-- [SHIFT] + [CTRL] + m: uncomment;
 - [CTRL] + z: undo;
 - [SHIFT] + [CTRL] + z: redo,
 or on macOS:
-- [CMD] + i: indent;
-- [SHIFT] + [CMD] + i: unindent;
-- [CMD] + m: comment;
-- [SHIFT] + [CMD] + m: uncomment;
 - [CMD] + z: undo;
 - [SHIFT] + [CMD] + z: redo.
 
@@ -61,43 +48,43 @@ You can get the last MaiaStudio version at [http://www.maiascript.com](http://ww
 
 ## INSTRUCTIONS FOR USE:
 
-Load the MaiaEditor library:
+Load the MaiaConsole library:
 
 `<script src="js/prism.js"></script>`
 
-`<script src="js/maiaeditor.js"></script>`
+`<script src="js/maiaconsole.js"></script>`
 
-To use MaiaEditor, insert a div in your document and assign an id to it.
-Then initialize the div using the MaiaEditor class constructor:
+To use MaiaConsole, insert a div in your document and assign an id to it.
+Then initialize the div using the MaiaConsole class constructor:
 
-`<div id="editor" class='editor'></div>`
+`<div id="editor" class='console'></div>`
 
-`<script>var editor = new MaiaEditor('editor', 'javascript');</script>`
+`<script>var console = new MaiaConsole('console', 'javascript');</script>`
 
-The complete documentation of the MaiaEditor class methods
+The complete documentation of the MaiaConsole class methods
 can be found in the doc folder.
 
 Thats all!
 
 ## INSTALL:
 
-To install the MaiaEditor use the command:
+To install the MaiaConsole use the command:
 
-`npm install -g maiaeditor`
+`npm install -g maiaconsole`
 
 Or, get it from GitHub:
 
-`git clone https://github.com/souzamonteiro/maiaeditor.git`
+`git clone https://github.com/souzamonteiro/maiaconsole.git`
 
 Or, download the latest zipped version:
 
-`unzip maiaeditor-master.zip`
+`unzip maiaconsole-master.zip`
 
-`cd maiaeditor-master`
+`cd maiaconsole-master`
 
 `npm install -g .`
 
-To try MaiaEditor on-line go to [http://www.maiastudio.com.br](http://www.maiastudio.com.br)
+To try MaiaConsole on-line go to [http://www.maiastudio.com.br](http://www.maiastudio.com.br)
 
 Lauro de Freitas, August 2020.
 

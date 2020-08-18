@@ -1,3 +1,0 @@
-- [x] Fix Undo and Redo for Cut and Paste
-- [x] Implement the regSub method
-- [x] Implement search method

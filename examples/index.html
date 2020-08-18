@@ -8,11 +8,12 @@
         <script src="../js/components/prism-clike.js"></script>
         <script src="../js/components/prism-maiascript.js"></script>
         <script src="../js/components/prism-javascript.js"></script>
-        <script src="../js/maiaeditor.js"></script>
+        <script src="../js/maiaconsole.js"></script>
         <style>
-            .editor {
+            .terminal {
                 height: 480px;
-                color: gray;
+                background-color: black;
+                color: white;
                 font-family: "Courier";
                 font-size: 14px;
                 letter-spacing: normal;
@@ -21,9 +22,9 @@
         </style>
     </head>
     <body>
-        <div id="editor" class='editor'>function f(x) {return(x)}</div>
+        <div id="terminal" class='terminal'>2 = 2 * 3^  4</div>
         <script>
-            var editor = new MaiaEditor('editor', 'maiascript');
+            var terminal = new MaiaConsole('terminal', 'maiascript');
         </script>
     </body>
 </html>
