@@ -1,0 +1,1 @@
+- [ ] Fix press [ENTER] in Google Chrome after command in history
