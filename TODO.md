@@ -1,1 +1,1 @@
-- [ ] Fix press [ENTER] in Google Chrome after command in history
+- [ ] Correct behavior when pressing the [Enter] key on the console, in Firefox
